@@ -51,6 +51,11 @@ def lower_boundary(input, target, low, high):
         return lower_boundary(input, target, low, middle - 1)
 
 
+def one_sided():
+    """ Implement a one sided binary search. """
+    pass
+
+
 if __name__ == "__main__":
 
     binary_search_times = []
